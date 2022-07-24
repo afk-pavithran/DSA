@@ -1,4 +1,3 @@
-
 const twoSums = (arr, sum)  => {
     for (i=0; i<=arr.length; i++) {
         for (j=i+1; j<=arr.length - 1; j++) {
@@ -12,5 +11,6 @@ const twoSums = (arr, sum)  => {
 
 
 const listA = [1, 9, 2, 17, 5, 35, 4]
-sumNumbers = 40
+sumNumbers = 21
+
 console.log(twoSums(listA, sumNumbers))
